@@ -1,0 +1,196 @@
+@media (max-width:991.98px) {
+    .navbar .navbar-collapse {
+        padding: 1rem 0 .35rem;
+    }
+
+    .navbar-nav {
+        gap: 0;
+    }
+
+    .navbar .nav-link {
+        padding-left: 0 !important;
+    }
+
+    .nav-search {
+        width: min(100%, 320px);
+        margin: .45rem .75rem .45rem 0;
+    }
+
+    .hero-section {
+        padding: 5.5rem 0 4.5rem;
+    }
+
+    .hero-content {
+        max-width: none;
+    }
+
+    .hero-image {
+        max-width: 620px;
+        margin: 0 auto;
+    }
+
+    .footer-brand {
+        align-items: flex-start !important;
+    }
+}
+
+@media (max-width:767.98px) {
+    .section-space {
+        padding: 4.5rem 0;
+    }
+
+    .hero-section {
+        padding: 4.7rem 0 4rem;
+    }
+
+    .hero-content h1 {
+        font-size: clamp(2.45rem, 11vw, 3.6rem);
+    }
+
+    .hero-content>p {
+        font-size: .96rem;
+    }
+
+    .hero-stats>div {
+        min-width: 0;
+        flex: 1;
+        padding: 0 .75rem;
+    }
+
+    .hero-stats strong {
+        font-size: 1rem;
+    }
+
+    .hero-stats span {
+        font-size: .65rem;
+    }
+
+    .hero-image {
+        min-height: 380px;
+    }
+
+    .hero-image img {
+        height: 355px;
+    }
+
+    .featured-heading {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .featured-heading .text-link {
+        margin: 0;
+    }
+    .sidebar-toggle-2,
+    .sidebar-toggle{
+        display: none;
+    }
+    .sidebar-btn{
+        display: block;
+    }
+    .dashboard-logo{
+    height: 40px;
+    width: 40px;
+    }
+}
+
+@media (max-width:575.98px) {
+    .logo {
+        width: 135px;
+        height: 50px;
+    }
+
+    .hero-search {
+        flex-wrap: wrap;
+        gap: .5rem;
+        padding: .75rem;
+    }
+
+    .hero-search input {
+        min-width: calc(100% - 32px);
+    }
+
+    .hero-search button {
+        width: 100%;
+    }
+
+    .hero-actions {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: .85rem;
+    }
+
+    .hero-stats>div {
+        padding: 0 .45rem;
+    }
+
+    .hero-stats span {
+        line-height: 1.25;
+    }
+
+    .hero-image {
+        min-height: 315px;
+        padding: 8px 0 0 8px;
+    }
+
+    .hero-image::before {
+        inset: 0 16px 18px 0;
+    }
+
+    .hero-image img {
+        width: calc(100% - 16px);
+        height: 290px;
+        border-radius: 19px;
+    }
+
+    .hero-float-card {
+        right: 0;
+        padding: .65rem .7rem;
+    }
+
+    .hero-float-card strong {
+        font-size: .67rem;
+    }
+
+    .hero-float-card small {
+        font-size: .58rem;
+    }
+
+    .featured-section .foot-card {
+        padding: 1.05rem;
+    }
+
+    .featured-section .footer-card {
+        gap: .8rem;
+    }
+
+    .featured-section .footer-card .company-logo {
+        flex-basis: 45px;
+        width: 45px;
+        height: 45px;
+        border-radius: 12px;
+        font-size: 1.15rem;
+    }
+
+    .featured-section .footer-card .job-header {
+        flex-direction: column;
+        gap: .65rem;
+    }
+
+    .job-footer {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .job-title {
+        font-size: .94rem;
+    }
+
+    .footer-section {
+        padding: 3.5rem 0 2.5rem;
+    }
+
+    .footer-brand {
+        align-items: flex-start !important;
+    }
+}
